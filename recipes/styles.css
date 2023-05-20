@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    
+}
+.image-container img {
+    max-height: 500px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+h2 {
+    text-align: center;
+}
+.centered-link  {
+    text-align: center;
+}
+body {
+    font: 1em Georgia;
+}
+  
+   
