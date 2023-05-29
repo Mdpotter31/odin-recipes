@@ -1,26 +1,39 @@
 h1 {
-    text-align: center;
+    text-align:left;
 
 }
-.image-container {
-    display: flex;
-    justify-content: center;
-    
+img {
+   width: 350PX;
+    height: 250px; ;
 }
-.image-container img {
-    max-height: 500px;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-}
-h2 {
-    text-align: center;
+
+p {
+    text-align: left;
+    font-size: 16px;
 }
 .centered-link  {
     text-align: center;
 }
 body {
-    font: 1em Georgia;
+    font-family: "SourceSansPro",Helvetica,sans-serif;
 }
+
+ul {
+    list-style-type: none;
+  }
   
-   
+  ul li::before {
+    content: "•";
+    color: orangered; /* Customize the bullet color here */
+    font-size: 20px; /* Customize the bullet size here */
+    margin-right: 10px; /* Customize the spacing between bullet and text here */
+  }
+  
+  ul {
+  list-style-type: none;
+  background-color: lightgray; /* Customize the background color here */
+  padding: 10px; /* Customize the padding around the list here */
+  border: 1px solid gray; /* Customize the border style here */
+  border-radius: 5px; /* Customize the border radius here */
+}
+
