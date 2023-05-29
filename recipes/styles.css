@@ -42,14 +42,11 @@ img {
 p {
     text-align: left;
     font-size: 16px;
-
-}
-* {
-    font-family: "SourceSansPro",Helvetica,sans-serif;
 }
 
+  /* unordered list settings */
 
-.button-container {
+  .button-container {
     display: flex;
     justify-content: left; /* Center the buttons horizontally */
     margin-bottom: 10px; /* Customize the spacing between buttons and image here */
@@ -60,8 +57,6 @@ p {
     height: 30px; /* Customize the button height here */
   }
   
-
-/* unordered list settings */
   
   ul li {
     padding-left: 20px; 
@@ -81,3 +76,7 @@ p {
     border-radius: 5px; /* Border radius */
   }
   
+
+* {
+    font-family: "SourceSansPro",Helvetica,sans-serif;
+}
