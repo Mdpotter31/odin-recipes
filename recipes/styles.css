@@ -1,3 +1,35 @@
+header {
+    background-color: #EDEDED; /* Background color */
+    color: black; /* The text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin: 0 10px; /* Spacing between menu items */
+  }
+  
+  .menu li a {
+    color:black; 
+    text-decoration: none;
+  }
+  
+
+
 h1 {
     text-align:left;
 
@@ -10,30 +42,42 @@ img {
 p {
     text-align: left;
     font-size: 16px;
+
 }
-.centered-link  {
-    text-align: center;
-}
-body {
+* {
     font-family: "SourceSansPro",Helvetica,sans-serif;
 }
 
-ul {
-    list-style-type: none;
+
+.button-container {
+    display: flex;
+    justify-content: left; /* Center the buttons horizontally */
+    margin-bottom: 10px; /* Customize the spacing between buttons and image here */
+  }
+  
+  .button-container button {
+    width: 50px; /* Customize the button width here */
+    height: 30px; /* Customize the button height here */
+  }
+  
+
+/* unordered list settings */
+  
+  ul li {
+    padding-left: 20px; 
   }
   
   ul li::before {
     content: "•";
-    color: orangered; /* Customize the bullet color here */
-    font-size: 20px; /* Customize the bullet size here */
-    margin-right: 10px; /* Customize the spacing between bullet and text here */
+    color: orangered; /* Bullet color */
+    font-size: 20px; /* Bullet size */
+    margin-right: 10px; /* Spacing between bullet and text */
   }
   
   ul {
-  list-style-type: none;
-  background-color: lightgray; /* Customize the background color here */
-  padding: 10px; /* Customize the padding around the list here */
-  border: 1px solid gray; /* Customize the border style here */
-  border-radius: 5px; /* Customize the border radius here */
-}
-
+    list-style-type: none;
+    background-color: #EDEDED; 
+    padding: 10px; /* Padding around the list */
+    border-radius: 5px; /* Border radius */
+  }
+  
