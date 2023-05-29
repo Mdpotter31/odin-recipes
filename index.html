@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UFT-8">
+        <meta charset="UTF-8">
         <title>3 Easy Dinners</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-       
+
+        <header>
+            <div class="logo">
+                <h1>Odin Recipes</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Dinners</a></li>
+                    <li><a href="#">Meals</a></li>
+                    <li><a href="#">Ingredients</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
         <h1>3 Easy Dinners</h1>
-        
-        <div class="button-container">
-            <button onclick="window.location.href='recipes/sugarcookies.html'">Sugar Cookies</button>
-            <button onclick="window.location.href='recipes/capresesalad.html'">Caprese Salad</button>
-            <button onclick="window.location.href='recipes/alfredo.html'">Chicken Alfredo</button>
-            <button onclick="window.location.href='recipes/chili.html'">Chili Mac</button>
-          </div>
-        
-        
+
+        <div class="recipe-container">
+            <div class="recipe">
+                <a href="recipes/capresesalad.html">
+                    <img src="recipes/images/capresesalad.png" alt="Caprese Salad">
+                    <h2>Caprese Salad</h2>
+                    <p>A refreshing and flavorful salad with fresh tomatoes, mozzarella, and basil.</p>
+                </a>
+            </div>
+            <div class="recipe">
+                <a href="recipes/alfredo.html">
+                    <img src="recipes/images/alfredo.png" alt="Chicken Alfedo">
+                    <h2>Chicken Alfredo</h2>
+                    <p>A creamy and indulgent pasta dish with tender chicken and a rich Alfredo sauce.</p>
+                </a>
+            </div>
+            <div class="recipe">
+                <a href="recipes/chili.html">
+                    <img src="recipes/images/chili.png" alt="Chili Mac">
+                    <h2>Chili Mac</h2>
+                    <p>A comforting and satisfying combination of chili and macaroni in one delicious dish.</p>
+                </a>
+            </div>
+        </div>
 
     </body>
 </html>
+
